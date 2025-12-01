@@ -9,6 +9,7 @@ st.set_page_config(
 )
 
 
+# kamal
 def home_page():
     # ----- Left menu -----
     with st.sidebar:
