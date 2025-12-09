@@ -26,7 +26,7 @@ def home_page():
 
 
     # ----- Profile image file -----
-    profile_image_file_path = "profile.png"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
+    profile_image_file_path = "kamal.png"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
 
     with open(profile_image_file_path, "rb") as img_file:
         img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
@@ -41,7 +41,7 @@ def home_page():
 
 
     # ----- Personal title or short description -----
-    current_role = "Current Role and/or Studies or Description"   # TODO: Change this
+    current_role = "Statistician Engineer and Matser in Big data and Analytics"   # TODO: Change this
 
     st.html(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""")
 
@@ -52,18 +52,17 @@ def home_page():
     st.subheader("About Me")
 
     # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
-    st.write("""
-    - 🧑‍💻 I am a <Current Role and/or Studies> 
+    st.write ("""
+    - 🧑‍💻 I am a statistician engineer and Master in Biga data Analytics 
 
-    - 🛩️ prev: <Previous Experience, Background or Studies>
+    - 🛩️ I worked as a data scientist in the public sector in Morocco for 15 years
+    - ❤️ I love football and swimming and to listen to music
 
-    - ❤️ <Your Passion and/or Interests>
+    - 🤖 I am eager to work as a problem solver in the domain of data
 
-    - 🤖 <Your Personal Projects>
+    - 🏂 Football
 
-    - 🏂 <Your Hobbies>
-
-    - 📫 How to reach me: <Your Email>
+    - 📫 How to reach me: elbouchehati.kamal@gmail.com
 
     - 🏠 Barcelona
     """)
