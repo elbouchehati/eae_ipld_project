@@ -29,7 +29,7 @@ def home_page():
     profile_image_file_path = "kamal.PNG"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
 
     with open(profile_image_file_path, "rb") as img_file:
-        img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
+        img = "data:image/PNG;base64," + base64.b64encode(img_file.read()).decode()
 
 
     # ----- Your Profile Image -----
