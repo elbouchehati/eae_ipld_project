@@ -4,7 +4,7 @@ import base64
     
 # ----- Page configs (tab title, favicon) -----
 st.set_page_config(
-    page_title="<Your Name> Portfolio",
+    page_title="KAMAL Portfolio",
     page_icon="📊",
 )
 
@@ -53,14 +53,14 @@ def home_page():
 
     # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
     st.write ("""
-    - 🧑‍💻 I am a statistician engineer and Master in Biga data Analytics 
+    - 🧑‍💻 I am a Statistician Engineer and Master in Big data Analytics in EAE Business School of Barcelona 
 
     - 🛩️ I worked as a data scientist in the public sector in Morocco for 15 years
     - ❤️ I love football and swimming and to listen to music
 
     - 🤖 I am eager to work as a problem solver in the domain of data
 
-    - 🏂 Football
+    - 🏂 Football ans swimming
 
     - 📫 How to reach me: elbouchehati.kamal@gmail.com
 
