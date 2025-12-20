@@ -17,7 +17,7 @@ def home_page():
         st.header("Introduction to Programming Languages for Data")
         st.write("###")
         st.write("***Final Project - Dec 2025***")
-        st.write("**Author:** <Your Name>")
+        st.write("**Author:** KAMAL")
         st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
 
@@ -41,7 +41,7 @@ def home_page():
 
 
     # ----- Personal title or short description -----
-    current_role = "Statistician Engineer and Matser in Big data and Analytics"   # TODO: Change this
+    current_role = "Statistician Engineer and Master in Big data and Analytics"   # TODO: Change this
 
     st.html(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""")
 
@@ -58,7 +58,7 @@ def home_page():
     - 🛩️ I worked as a data scientist in the public sector in Morocco for 15 years
     - ❤️ I love football and swimming and to listen to music
 
-    - 🤖 I am eager to work as a problem solver in the domain of data
+    - 🤖 I am eager to work as a problem solver in the domain of data and Machine Learning
 
     - 🏂 Football ans swimming
 
